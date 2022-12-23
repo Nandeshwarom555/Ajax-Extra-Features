@@ -1,4 +1,5 @@
 <p align="center">
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/Nandeshwarom555/Ajax-Extra-Features&branch=koyeb&name=newcinematoupdt)
   <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
 </p>
 <h1 align="center">
