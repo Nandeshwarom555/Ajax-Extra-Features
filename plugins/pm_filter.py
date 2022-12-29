@@ -747,14 +747,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/MRAUPLOADS'),
+            InlineKeyboardButton('💠 ᴄʜᴀɴɴᴇʟ 💠', url='https://t.me/CinematoBugTV'),
             InlineKeyboardButton('💠 ʀᴇQᴜᴇꜱᴛ ɢʀᴏᴜᴘ 💠', url='https://t.me/moviesrequestaccepted')
             ],[      
             InlineKeyboardButton('‼️ ʜᴇʟᴘ ‼️', callback_data='help'),
             InlineKeyboardButton('🔍ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔞18+ ᴍᴏᴠɪᴇꜱ🔞', url='https://www.youtube.com/channel/UCBTsuBKjrtuEQbC9RtksLzw')
+            InlineKeyboardButton('🔞18+ ᴍᴏᴠɪᴇꜱ🔞', url='https://www.youtube.com/@CinematoBugTV')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
