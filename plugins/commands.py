@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔞18+ ᴍᴏᴠɪᴇꜱ🔞', url='https://www.youtube.com/@CinematoBugTV')
+            InlineKeyboardButton('⚡️ ʙᴜʏ ᴀɴʏ ᴍᴏᴠɪᴇ ᴀᴛ ʀꜱ.10 ⚡️', url='https://t.me/Movies_Rs_10')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -95,7 +95,7 @@ async def start(client, message):
             InlineKeyboardButton('🔍ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇ', switch_inline_query_current_chat=''),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔞18+ ᴍᴏᴠɪᴇꜱ🔞', url='https://www.youtube.com/@CinematoBugTV')
+            InlineKeyboardButton('⚡️ ʙᴜʏ ᴀɴʏ ᴍᴏᴠɪᴇ ᴀᴛ ʀꜱ.10 ⚡️', url='https://t.me/Movies_Rs_10')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
