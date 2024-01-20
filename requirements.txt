@@ -1,4 +1,4 @@
-pyrogram>=1.4.16
+pyrogram>=1.0.6
 dnspython==2.3.0
 git+https://github.com/subinps/pyrogram@inline-m
 tgcrypto
