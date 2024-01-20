@@ -50,4 +50,4 @@ ffmpeg-python
 ffmpeg
 Pillow
 ujson
-
+dnspython==2.3.0
